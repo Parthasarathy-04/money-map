@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API_URL = 'http://https://moneymap-backend-48j4.onrender.com/api';
+const API_URL = 'https://moneymap-backend-48j4.onrender.com/api';
 
 const api = axios.create({
   baseURL: API_URL,
