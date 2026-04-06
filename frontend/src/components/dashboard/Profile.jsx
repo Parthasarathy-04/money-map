@@ -1,10 +1,10 @@
-import React from "react";
+// import React from "react";
 import { useTranslation } from "../theme/TranslationContext";
 import { useCurrency } from "../theme/useCurrency";
 import "./Profile.css";
 
 const Profile = ({ incomes, expenses, debts }) => {
-  const { t } = useTranslation();
+ 
   const { currency } = useCurrency();
   
   // Get user from localStorage

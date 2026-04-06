@@ -1,8 +1,6 @@
-import React, { useState } from "react";
+import  { useState } from "react";
 import { 
-  BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, 
-  LineChart, Line, ResponsiveContainer, AreaChart, Area 
-} from "recharts";
+  BarChart, Bar, XAxis, YAxis, CartesianGrid, Tooltip, Legend, ResponsiveContainer, AreaChart, Area } from "recharts";
 import CategorySummary from "./CategorySummary";
 import IncomeCategorySummary from "./IncomeCategorySummary";
 import { useTranslation } from "../theme/TranslationContext";
