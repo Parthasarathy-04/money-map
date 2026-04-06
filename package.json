@@ -19,13 +19,14 @@
     "recharts": "^3.7.0",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
-    "start": "cd frontend && npm start",
-    "build": "cd frontend && npm run build",
-    "test": "cd frontend && npm test",
-    "eject": "cd frontend && npm run eject",
-    "server": "cd backend && npm start"
-  },
+"scripts": {
+  "start": "react-scripts start",
+  "build": "react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject",
+  "server": "node server.js",
+  "dev": "concurrently \"npm run server\" \"npm start\""
+},
   "proxy": "http://localhost:5000",
   "eslintConfig": {
     "extends": [
